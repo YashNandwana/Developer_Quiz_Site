@@ -1044,6 +1044,15 @@ const pythonQuiz = [
     Explanation: "readline() function reads a single line from the file and returns the read bytes in the form of a string.",
     Link: "https://www.freecodecamp.org/news/file-handling-in-python/",
   },
+  {
+    Question: "In Python, which module is used to capture command-line arguments given at a file's runtime ?",
+    Answer: "sys",
+    Distractor1: "os",
+    Distractor2: "collections",
+    Distractor3: "sys",
+    Explanation: "Python's sys module provides access to some variables used or maintained by the interpreter and to functions that interact strongly with the interpreter. One such variable is sys.argv which is a simple list structure",
+    Link: "https://www.geeksforgeeks.org/command-line-arguments-in-python/",
+  },
 ];
 
 export default pythonQuiz;
